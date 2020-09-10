@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.divider {
+    height: 5px;
+    background-color: black;
+}
+
+.subheader {
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.content {
+    margin-left: 10px;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2d8dd8;
+}
+
+#menu-item {
+    float: left;
+}
+
+#menu-item a {
+    display: block;
+    padding: 14px 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu-item a:hover {
+    background-color: #50abf1;
+}
