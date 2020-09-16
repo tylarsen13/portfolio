@@ -1,7 +1,81 @@
-body {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #B2D6FF;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+  
+.menu {
+    background-color: #2d8dd8;
+    height: 50px;
+    padding: 0;
+}
+  
+.header {
+    background-color: #B2D6FF;
+    height: 100px;
+}
+  
+.about {
+    background-color: #EAEDF0;
+}
+  
+.projects {
+    background-color: #d7fed9;
+}
+  
+.experience {
+    background-color: #F5CF8E;
+}
+  
+.contact {
+    background-color: #F09A9D;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .subheader {
+        font-size: 6vw;
+    }
+    .section {
+        font-size: 3vw;
+    }
+}
+  
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .page {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about,
+    .projects,
+    .experience {
+        width: 33.3%;
+    }
+    .subheader {
+        font-size: 3vw;
+    }
+    .section {
+        font-size: 1vw;
+    }
 }
 
 #name {
@@ -14,21 +88,11 @@ body {
     background-color: black;
 }
 
-.subheader {
-    font-weight: normal;
-    margin-top: 15px;
-}
-
-.content {
-    margin-left: 10px;
-}
-
 #menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #2d8dd8;
 }
 
 #menu-item {
